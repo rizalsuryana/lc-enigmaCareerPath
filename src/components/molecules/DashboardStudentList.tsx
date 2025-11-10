@@ -20,9 +20,9 @@ export default function DashboardStudentList() {
         const data: StudentInterface[] = await dataStudent.json();
         setStudent(data);
 
-        const totalGpa = data.reduce((sum, s) => sum + s.gpa, 0);
-        const avg = totalGpa / data.length;
-        setAverageGpa(avg);
+        // const totalGpa = data.reduce((sum, s) => sum + s.gpa, 0);
+        // const avg = totalGpa / data.length;
+        // setAverageGpa(avg);
       } catch (err) {
         console.log(err);
       } finally {
@@ -36,6 +36,12 @@ export default function DashboardStudentList() {
   const filteredStudent = students.filter((student) =>
     student.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  useEffect(() => {
+    const totalGpa = filteredStudent.reduce((sum, s) => sum + s.gpa, 0);
+    const avg = totalGpa / filteredStudent.length;
+    setAverageGpa(avg);
+  }, [filteredStudent]);
 
   if (loading) {
     return (
