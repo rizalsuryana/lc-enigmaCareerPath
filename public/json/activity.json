@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "New Student registered",
+    "description": "John Doe joined the Computer Science program",
+    "time": "2 hours ago"
+  },
+  {
+    "id": 2,
+    "title": "New Career Posted",
+    "description": "New Career oportunity posted",
+    "time": "5 hours ago"
+  },
+  {
+    "id": 3,
+    "title": "System update complete",
+    "description": "All system are running smoothly",
+    "time": "8 hours ago"
+  },
+  {
+    "id": 4,
+    "title": "New Update available",
+    "description": "All system are running smoothly",
+    "time": "20 hours ago"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Rizal Suryana",
+    "major": "Computer Science",
+    "year": 2023,
+    "gpa": 3.85
+  },
+  {
+    "id": 2,
+    "name": "Dewi Lestari",
+    "major": "Information Systems",
+    "year": 2022,
+    "gpa": 3.72
+  },
+  {
+    "id": 3,
+    "name": "Andi Pratama",
+    "major": "Software Engineering",
+    "year": 2024,
+    "gpa": 3.9
+  },
+  {
+    "id": 4,
+    "name": "Bunga Maharani",
+    "major": "Data Science",
+    "year": 2023,
+    "gpa": 3.65
+  },
+  {
+    "id": 5,
+    "name": "Dimas Haryanto",
+    "major": "Network Engineering",
+    "year": 2021,
+    "gpa": 3.5
+  },
+  {
+    "id": 6,
+    "name": "Lutfi Ramadhan",
+    "major": "Artificial Intelligence",
+    "year": 2024,
+    "gpa": 3.88
+  },
+  {
+    "id": 7,
+    "name": "Citra Anggraini",
+    "major": "Cyber Security",
+    "year": 2022,
+    "gpa": 3.67
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Techify Solutions",
+    "location": "Jakarta, Indonesia",
+    "salary": "Rp10.000.000 - Rp15.000.000",
+    "type": "Full-Time"
+  },
+  {
+    "id": 2,
+    "title": "Backend Engineer",
+    "company": "Inovasi Digital Nusantara",
+    "location": "Bandung, Indonesia",
+    "salary": "Rp9.000.000 - Rp13.000.000",
+    "type": "Full-Time"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Designer",
+    "company": "PixelCraft Studio",
+    "location": "Yogyakarta, Indonesia",
+    "salary": "Rp8.000.000 - Rp12.000.000",
+    "type": "Remote"
+  },
+  {
+    "id": 4,
+    "title": "Mobile Developer",
+    "company": "GoCode Labs",
+    "location": "Surabaya, Indonesia",
+    "salary": "Rp9.500.000 - Rp14.000.000",
+    "type": "Full-Time"
+  },
+  {
+    "id": 5,
+    "title": "Data Analyst",
+    "company": "Insight Analytics",
+    "location": "Jakarta, Indonesia",
+    "salary": "Rp10.000.000 - Rp16.000.000",
+    "type": "Hybrid"
+  },
+  {
+    "id": 6,
+    "title": "DevOps Engineer",
+    "company": "CloudSync Asia",
+    "location": "Semarang, Indonesia",
+    "salary": "Rp11.000.000 - Rp17.000.000",
+    "type": "Full-Time"
+  }
+]
