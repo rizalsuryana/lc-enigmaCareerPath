@@ -74,8 +74,12 @@ export default function DashboardStudentList() {
               <tr>
                 <th className="px-4 py-3 font-semibold tracking-wide">ID</th>
                 <th className="px-4 py-3 font-semibold tracking-wide">Name</th>
-                <th className="px-4 py-3 font-semibold tracking-wide">Major</th>
-                <th className="px-4 py-3 font-semibold tracking-wide">Year</th>
+                <th className="hidden sm:table-cell px-4 py-3 font-semibold tracking-wide">
+                  Major
+                </th>
+                <th className="hidden sm:table-cell px-4 py-3 font-semibold tracking-wide">
+                  Year
+                </th>
                 <th className="px-4 py-3 font-semibold tracking-wide text-right">
                   GPA
                 </th>
@@ -95,10 +99,12 @@ export default function DashboardStudentList() {
                   <td className="px-4 py-2 border-t border-gray-200 font-medium text-gray-900">
                     {student.name}
                   </td>
-                  <td className="px-4 py-2 border-t border-gray-200">
+                  {/* sumputkeun (<sm) */}
+                  <td className="hidden sm:table-cell px-4 py-2 border-t border-gray-200">
                     {student.major}
                   </td>
-                  <td className="px-4 py-2 border-t border-gray-200">
+                  {/* sumputkeun di layar kecil (<sm) */}
+                  <td className="hidden sm:table-cell px-4 py-2 border-t border-gray-200">
                     {student.year}
                   </td>
                   <td className="px-4 py-2 border-t border-gray-200 text-right">
