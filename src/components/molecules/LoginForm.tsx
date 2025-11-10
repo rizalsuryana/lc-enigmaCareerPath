@@ -1,6 +1,7 @@
 import { useForm, type SubmitHandler } from "react-hook-form";
 import type { UserInterface, LoginInterface } from "../../types/userTypes";
 import Label from "../atoms/Label";
+import { toast } from "react-toastify";
 
 export default function LoginForm({ onLogin }: LoginInterface) {
   const {
@@ -21,9 +22,16 @@ export default function LoginForm({ onLogin }: LoginInterface) {
       value.password === hardCodeUser.password
     ) {
       onLogin();
+      toast.success("Login success", {
+        position: "top-right",
+        autoClose: 2200,
+      });
       reset();
     } else {
-      alert("Incorrect username or password");
+      toast.error("Incorrect username or password!", {
+        position: "top-right",
+        autoClose: 2000,
+      });
     }
   };
 

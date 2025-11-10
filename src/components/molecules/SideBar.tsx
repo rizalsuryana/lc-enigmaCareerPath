@@ -16,7 +16,7 @@ export default function SideBar({
     <>
       {/* Toggle button mobile */}
       <button
-        className="sm:hidden fixed top-4 left-4 z-50 bg-gray-800 text-white p-2 rounded-md"
+        className="sm:hidden fixed top-1 left-4 z-50 bg-gray-800 text-white p-2 rounded-md"
         onClick={() => setOpen(!open)}
       >
         <HiMenu className="text-2xl" />
@@ -25,14 +25,16 @@ export default function SideBar({
       {/* Sidebar */}
       <aside
         className={`
-          fixed top-0 left-0 w-64 bg-linear-to-br from-gray-950 via-gray-700 to-gray-950 text-white p-4 flex flex-col justify-between
+          fixed top- left-0 w-64 bg-linear-to-br from-gray-950 via-gray-700 to-gray-950 text-white p-4 flex flex-col justify-between
           transform transition-transform duration-300
           ${open ? "translate-x-0" : "-translate-x-full"} 
           sm:translate-x-0 sm:relative sm:h-screen sm:shrink-0 z-40
         `}
       >
         <div>
-          <h1 className="text-2xl font-bold mb-6 tracking-wide">Dashboard</h1>
+          <h1 className="mt-11 sm:mt-0 text-2xl font-bold mb-6 tracking-wide">
+            Dashboard
+          </h1>
 
           <button
             className={`w-full flex items-center gap-2 p-3 rounded-lg mb-2 transition ${
